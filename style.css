@@ -1,0 +1,30 @@
+/* 设置轮播图容器的宽度和高度，并使其居中 */
+#myCarousel {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* 设置轮播图图片的宽度和高度，使其覆盖整个容器 */
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 调整上一张按钮的位置，使其垂直居中 */
+.carousel-control-prev {
+  align-items: center;
+}
+
+/* 调整下一张按钮的位置，使其垂直居中 */
+.carousel-control-next {
+  align-items: center;
+}
+
+/* 设置按钮的背景颜色和透明度 */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(185, 17, 17, 0.691);
+  width: 10%; /* 可根据需要调整按钮的宽度 */
+}
